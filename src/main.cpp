@@ -12,7 +12,8 @@ class $modify(HyperCamWatermarkPLHook, PlayLayer) {
       sprite->setScale(0.325f);
       sprite->setPosition(CCPoint(0, winSize.height));
       PlayLayer::setupHasCompleted();
-      this->addChild(sprite); 
+      this->addChild(sprite);
+      sprite->setID("hypercam-watermark"_spr);
     }
   }
 };
