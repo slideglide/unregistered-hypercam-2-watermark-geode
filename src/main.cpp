@@ -15,7 +15,7 @@ class $modify(HyperCamWatermarkPLHook, PlayLayer) {
             safeArea.origin.x,
             safeArea.origin.y + safeArea.size.height
         });
-        this->addChild(sprite);
+        m_uiLayer->addChild(sprite);
         sprite->setID("hypercam-watermark"_spr);
     }
 };
