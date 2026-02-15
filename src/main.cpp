@@ -8,8 +8,6 @@ static bool s_inEverywhere = true;
 static bool s_inGameplay   = true;
 static bool s_inEditor     = true;
 
-static std::optional<bool> s_gameVar = std::nullopt;
-
 static void setWatermark(CCNode* parent, bool show) {
     if (!parent) return;
 

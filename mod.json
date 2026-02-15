@@ -1,5 +1,5 @@
 {
-	"geode": "5.0.0-alpha.1",
+	"geode": "5.0.0-beta.1",
 	"gd": {
 		"win": "2.2081",
 		"android": "2.2081",
@@ -8,7 +8,7 @@
 	},
 	"id": "slideglide.unregistered_hypercam",
 	"name": "Unregistered HyperCam 2",
-	"version": "v1.0.2",
+	"version": "v1.0.3",
 	"developer": "slideglide",
 	"description": "Add the funny HyperCam 2 watermark",
 	"settings": {
