@@ -43,7 +43,7 @@ static void hideWatermark(CCNode* parent) {
 
 static void syncWatermarks(PlayLayer* pl = nullptr, EditorUI* editor = nullptr, bool useGlobal = true) {
     if (useGlobal) {
-        if (!pl) pl = GameManager::sharedState()->getPlayLayer();
+        if (!pl) pl = PlayLayer::get();
         if (!editor && LevelEditorLayer::get()) editor = LevelEditorLayer::get()->m_editorUI;
     }
 
