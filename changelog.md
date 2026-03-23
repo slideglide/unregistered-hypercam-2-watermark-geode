@@ -1,4 +1,8 @@
 # Changelogs
+## v1.0.4
+- Update Geode to v5.4.1
+- Add an "Enabled" setting to the mod settings for a master toggle
+
 ## v1.0.3
 - Geode v5.0.0-beta.1 support
 
